@@ -33,14 +33,15 @@ for (int i = 0; i < n; i++) //Menggunakan perulangan for untuk menyimpan data pa
 
 void insertionSort(){
     int i, temp, j;
-    for(i = 1; i <= n -1;i++)//Step 1
+    for(i = 1; i <= n -1;i++){//Step 1
     temp = arr[i]; //Step 2
     j = i - 1;//Step 3
     while (j >= 0 && arr[j] > temp ){//Step 4a
     j--;//Step4b
     }
     arr[j] = temp;//Step 5
-}]
+}
+}
 
 void display(){
     cout << endl;//Output baris Kosong
