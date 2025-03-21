@@ -36,8 +36,9 @@ void insertionSort(){
     for(i = 1; i <= n -1;i++){//Step 1
     temp = arr[i]; //Step 2
     j = i - 1;//Step 3
-    while (j >= 0 && arr[j] > temp ){//Step 4a
-    j--;//Step4b
+    while (j >= 0 && arr[j] > temp ){
+        arr[j + 1] = arr [j]; //Step 4a
+        j--;//Step4b
     }
     arr[j] = temp;//Step 5
 }
