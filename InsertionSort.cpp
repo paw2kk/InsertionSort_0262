@@ -37,10 +37,10 @@ void insertionSort(){
     temp = arr[i]; //Step 2
     j = i - 1;//Step 3
     while (j >= 0 && arr[j] > temp ){
-        arr[j + 1] = arr [j]; //Step 4a
+        arr[j + 1] = arr[j]; //Step 4a
         j--;//Step4b
     }
-    arr[j] = temp;//Step 5
+    arr[j + 1] = temp;//Step 5
 }
 }
 
