@@ -34,4 +34,5 @@ for (int i = 0; i < n; i++) //Menggunakan perulangan for untuk menyimpan data pa
 void insertionSort(){
     int i, temp, j;
     for(i = 1; i <= n -1;i++)//Step 1
+    temp = arr[i]; //Step 2
 }
