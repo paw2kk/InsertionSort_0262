@@ -39,4 +39,5 @@ void insertionSort(){
     while (j >= 0 && arr[j] > temp ){//Step 4a
     j--;//Step4b
     }
+    arr[j] = temp;//Step 5
 }
